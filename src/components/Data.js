@@ -1,0 +1,36 @@
+/* eslint import/no-anonymous-default-export: [2, {"allowArray": true}] */
+export default [
+  {
+    id: 1,
+    img: "zafary.png",
+    rating: "5.0",
+    review: "9",
+    price: "137",
+    title: "Life Lessons with Katie Zaferes",
+    country: "USA",
+    location: "Online",
+    openSpots: 0,
+  },
+  {
+    id: 2,
+    img: "wedding.png",
+    rating: "5.0",
+    review: "6",
+    price: "137",
+    title: "Life ,essons with Katie Zaferes",
+    country: "USA",
+    location: "Online",
+    openSpots: 23,
+  },
+  {
+    id: 3,
+    img: "bike.png",
+    rating: "3.0",
+    review: "4",
+    price: "137",
+    title: "Life Lessons with Katie Zaferes",
+    country: "USA",
+    location: "Norway",
+    openSpots: 78,
+  },
+];
