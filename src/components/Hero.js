@@ -3,10 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="hero">
-      <img
-        src={process.env.PUBLIC_URL + "images/photo-grid.png"}
-        alt="photoGrid"
-      />
+      <img src={require("../images/photo-grid.png")} alt="photoGrid" />
       <div className="text">
         <h1>Online Experiences</h1>
         <p>
