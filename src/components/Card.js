@@ -10,12 +10,9 @@ function Card(props) {
   return (
     <div className="card">
       {badgeText && <div className="badge">{badgeText}</div>}
-      <img
-        src={process.env.PUBLIC_URL + `images/${props.img}`}
-        alt="CardImage"
-      />
+      <img src={require(`images/${props.img}`)} alt="" />
       <div>
-        <img src={process.env.PUBLIC_URL + `images/Star.png`} alt="starImage" />
+        <img src={require(`images/Star.png`)} alt="starImage" />
         <span>{props.rating}</span>
         <span>
           ({props.review}) • {props.country}

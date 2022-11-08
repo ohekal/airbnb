@@ -12,9 +12,8 @@ function App() {
     <div className="App">
       <Nav />
       <Hero />
-      <section>{card}</section>
+      <section> {card} </section>
     </div>
   );
 }
-
 export default App;

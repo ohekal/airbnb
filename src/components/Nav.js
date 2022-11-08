@@ -1,11 +1,8 @@
+import React from "react";
 function Nav() {
   return (
     <div className="nav-bar">
-      <img
-        src={process.env.PUBLIC_URL + "images/airbnb-logo.svg"}
-        alt="logo"
-        width="100px"
-      />
+      <img src={require("images/airbnb-logo.svg")} alt="" width="100px" />
     </div>
   );
 }
